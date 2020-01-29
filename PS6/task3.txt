@@ -1,0 +1,26 @@
+Research and analyze the POSIX alternatives for shared memory and semaphores.
+Describe the differences between them and the System V mechanisms used in
+the previous tasks, and highlight advantages and disadvantages of both.
+
+
+
+Both have the same basic tools like semaphores, shared memory and message queues.
+
+
+In System V Semaphores you can control how much the the Semaphore Value can be increased or decreased.
+Whereas in POSIX you can increase/decrease it just by 1
+
+In System V you create an array of semaphores, instead of just one. 
+Because of this System V Semaphores are costlier than POSIX Sempahores
+
+IN Posix everything has String name, while in System V it is just an integer.
+
+POSIX is newer than System V. So maybe there are some portability problems. 
+
+*POSIX is thread-safe
+
+
+
+
+
+
